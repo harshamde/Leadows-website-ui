@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     </link>
     <link
-        href="https://fonts.googleapis.com/css2?family=Mali&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
         rel="stylesheet">
     </link>
     <link rel="stylesheet" href="/index.css">
@@ -35,8 +35,8 @@
         </div>
 
         <div class="nav-links desktop-view">
-            <a class="link" href="#">Services</a>
-            <a class="link" href="#">Products</a>
+            <a class="link" href="#services">Services</a>
+            <a class="link" href="#products">Products</a>
             <a class="link" href="#">Domains</a>
             <a class="link" href="#">Technologies</a>
             <a class="link" href="#">About</a>
@@ -52,20 +52,101 @@
             <div class="d-flex justify-content-end">
                 <button type="button" class="btn-close" aria-label="Close" onclick="closeHamburgerMenu()"></button>
             </div>
-            <a class="link" href="#" onclick="closeHamburgerMenu()">Services</a>
-            <a class="link" href="#" onclick="closeHamburgerMenu()">Products</a>
+            <a class="link" href="#services" onclick="closeHamburgerMenu()">Services</a>
+            <a class="link" href="#products" onclick="closeHamburgerMenu()">Products</a>
             <a class="link" href="#" onclick="closeHamburgerMenu()">Domains</a>
             <a class="link" href="#" onclick="closeHamburgerMenu()">Technologies</a>
             <a class="link" href="#" onclick="closeHamburgerMenu()">About</a>
         </div>
     </navbar>
-    <div class="logo-container">
+    <div class="page-body">
+        <section id="products">
+            <label class="section-header">Products</label>
+            <div class="section-body">
+                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="img-div">
+                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                    </div>
+                    <div class="card-content">
+                        <label class="card-header">Coding Roomie</label>
+                        <label class="card-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                        </label>
+                    </div>
+                </div>
+                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="img-div">
+                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                    </div>
+                    <div class="card-content">
+                        <label class="card-header">Coding Roomie</label>
+                        <label class="card-description">
+                            A hands-on learning and practicising platform for software developers with all the
+                            development
+                            tools available in the browser itself.
+                        </label>
+                    </div>
+                </div>
+                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="img-div">
+                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                    </div>
+                    <div class="card-content">
+                        <label class="card-header">Hire Hotshot</label>
+                        <label class="card-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <label class="section-header">Services</label>
+            <div class="section-body">
+                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="img-div">
+                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                    </div>
+                    <div class="card-content">
+                        <label class="card-header">Coding Roomie</label>
+                        <label class="card-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                        </label>
+                    </div>
+                </div>
+                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="img-div">
+                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                    </div>
+                    <div class="card-content">
+                        <label class="card-header">Coding Roomie</label>
+                        <label class="card-description">
+                            A hands-on learning and practicising platform for software developers with all the
+                            development
+                            tools available in the browser itself.
+                        </label>
+                    </div>
+                </div>
+                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="img-div">
+                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                    </div>
+                    <div class="card-content">
+                        <label class="card-header">Hire Hotshot</label>
+                        <label class="card-description">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 
 <script>
     const closeHamburgerMenu = () => {
-        document.getElementById("togglerButton").click();
+        // document.getElementById("togglerButton").click();
     };
 </script>
 
