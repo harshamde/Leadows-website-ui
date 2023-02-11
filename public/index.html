@@ -28,126 +28,131 @@
 </head>
 
 <body>
-    <navbar class="navbar">
-        <div class="logo-container">
-            <img class="logo" src="/images/leadows-logo.png" />
-            <label class="tag-line">Decoding Problems, Coding Solutions</label>
-        </div>
+    <div>
+        <div class="backdrop" id="backdrop"></div>
+        <header>
+            <navbar class="navbar">
+                <div class="logo-container">
+                    <img class="logo" src="/images/leadows-logo.png" />
+                    <label class="tag-line">Decoding Problems, Coding Solutions</label>
+                </div>
 
-        <div class="nav-links desktop-view">
-            <a class="link" href="#services">Services</a>
-            <a class="link" href="#products">Products</a>
-            <a class="link" href="#">Domains</a>
-            <a class="link" href="#">Technologies</a>
-            <a class="link" href="#">About</a>
-        </div>
+                <div class="nav-links desktop-view">
+                    <a class="link" href="#services">Services</a>
+                    <a class="link" href="#products">Products</a>
+                    <a class="link" href="#">Domains</a>
+                    <a class="link" href="#">Technologies</a>
+                    <a class="link" href="#">About</a>
+                </div>
 
-        <!-- ========================= For mobile view only ================================== -->
+                <!-- ========================= For mobile view only ================================== -->
+                <span class="navbar-toggler-icon" id="togglerButton"></span>
 
-        <button class="navbar-toggler mobile-view" id="togglerButton" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="nav-links offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
-            <div class="d-flex justify-content-end">
-                <button type="button" class="btn-close" aria-label="Close" onclick="closeHamburgerMenu()"></button>
+            </navbar>
+            <div class="navbar-menu-for-mobile mobile-view" tabindex="-1" id="offcanvasNavbar">
+                <a class="link" href="#services" onclick="closeHamburgerMenu()">Services and Products</a>
+                <a class="link" href="#products" onclick="closeHamburgerMenu()">Products</a>
+                <a class="link" href="#" onclick="closeHamburgerMenu()">Domains</a>
+                <a class="link" href="#" onclick="closeHamburgerMenu()">Technologies</a>
+                <a class="link" href="#" onclick="closeHamburgerMenu()">About</a>
             </div>
-            <a class="link" href="#services" onclick="closeHamburgerMenu()">Services</a>
-            <a class="link" href="#products" onclick="closeHamburgerMenu()">Products</a>
-            <a class="link" href="#" onclick="closeHamburgerMenu()">Domains</a>
-            <a class="link" href="#" onclick="closeHamburgerMenu()">Technologies</a>
-            <a class="link" href="#" onclick="closeHamburgerMenu()">About</a>
-        </div>
-    </navbar>
-    <div class="page-body">
-        <section id="products">
-            <label class="section-header">Products</label>
-            <div class="section-body">
-                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="img-div">
-                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+        </header>
+        <div class="page-body">
+            <section id="products">
+                <label class="section-header">Products</label>
+                <div class="section-body">
+                    <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="img-div">
+                            <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                        </div>
+                        <div class="card-content">
+                            <label class="card-header">Coding Roomie</label>
+                            <label class="card-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                            </label>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <label class="card-header">Coding Roomie</label>
-                        <label class="card-description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
-                        </label>
+                    <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="img-div">
+                            <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                        </div>
+                        <div class="card-content">
+                            <label class="card-header">Coding Roomie</label>
+                            <label class="card-description">
+                                A hands-on learning and practicising platform for software developers with all the
+                                development
+                                tools available in the browser itself.
+                            </label>
+                        </div>
                     </div>
-                </div>
-                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="img-div">
-                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
-                    </div>
-                    <div class="card-content">
-                        <label class="card-header">Coding Roomie</label>
-                        <label class="card-description">
-                            A hands-on learning and practicising platform for software developers with all the
-                            development
-                            tools available in the browser itself.
-                        </label>
-                    </div>
-                </div>
-                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="img-div">
-                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
-                    </div>
-                    <div class="card-content">
-                        <label class="card-header">Hire Hotshot</label>
-                        <label class="card-description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
-                        </label>
+                    <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="img-div">
+                            <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                        </div>
+                        <div class="card-content">
+                            <label class="card-header">Hire Hotshot</label>
+                            <label class="card-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                            </label>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="services">
-            <label class="section-header">Services</label>
-            <div class="section-body">
-                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="img-div">
-                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+            <section id="services">
+                <label class="section-header">Services</label>
+                <div class="section-body">
+                    <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="img-div">
+                            <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                        </div>
+                        <div class="card-content">
+                            <label class="card-header">Coding Roomie</label>
+                            <label class="card-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                            </label>
+                        </div>
                     </div>
-                    <div class="card-content">
-                        <label class="card-header">Coding Roomie</label>
-                        <label class="card-description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
-                        </label>
+                    <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="img-div">
+                            <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                        </div>
+                        <div class="card-content">
+                            <label class="card-header">Coding Roomie</label>
+                            <label class="card-description">
+                                A hands-on learning and practicising platform for software developers with all the
+                                development
+                                tools available in the browser itself.
+                            </label>
+                        </div>
+                    </div>
+                    <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                        <div class="img-div">
+                            <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
+                        </div>
+                        <div class="card-content">
+                            <label class="card-header">Hire Hotshot</label>
+                            <label class="card-description">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
+                            </label>
+                        </div>
                     </div>
                 </div>
-                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="img-div">
-                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
-                    </div>
-                    <div class="card-content">
-                        <label class="card-header">Coding Roomie</label>
-                        <label class="card-description">
-                            A hands-on learning and practicising platform for software developers with all the
-                            development
-                            tools available in the browser itself.
-                        </label>
-                    </div>
-                </div>
-                <div class="card-leadows col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                    <div class="img-div">
-                        <img class="card-img" src="/images/hirehotshot-template-logo.jpg"></img>
-                    </div>
-                    <div class="card-content">
-                        <label class="card-header">Hire Hotshot</label>
-                        <label class="card-description">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, neque.
-                        </label>
-                    </div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </div>
 </body>
 
 <script>
     const closeHamburgerMenu = () => {
-        // document.getElementById("togglerButton").click();
+        document.getElementById("togglerButton").click();
     };
+
+    document.getElementById("togglerButton").onclick = () => {
+        document.getElementById('offcanvasNavbar').classList.toggle("open");
+        document.getElementById('backdrop').classList.toggle("show");
+
+    }
 </script>
 
 </html>
